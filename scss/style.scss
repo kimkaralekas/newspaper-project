@@ -13,6 +13,11 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-family: "Cool Font";
+	font-size: 36px;
+}
+
 header {
 	height: 100px;
 	background: #dbdbdb;
@@ -36,4 +41,15 @@ header {
 	top: 400px;
 	height: 1500px;
 	padding-top: 10px;
+}
+
+@font-face {
+	font-family: "Cool Font";
+	src: url("../fonts/AmaticSC-Regular.ttf") format("truetype");
+}
+
+p { 
+	margin: 15px 0;
+	font: 14px "Cool Font", Arial, Helvetica, Geneva Sans-Serif; 
+	font-size: 20px;
 }
